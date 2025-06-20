@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Rozhovory s AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lang.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Rozhovory s AI</h1>
+        <nav>
+            <a href="finance.html" data-i18n="finance">Finance</a> |
+            <a href="historie.html" data-i18n="history">Historie</a> |
+            <a href="priroda.html" data-i18n="nature">Příroda</a> |
+            <a href="technologie.html" data-i18n="tech">Technologie</a> |
+            <a href="o-projektu.html" data-i18n="about">O projektu</a>
+        </nav>
+        <div id="language-selector">
+            <button onclick="setLanguage('cs')">🇨🇿</button>
+            <button onclick="setLanguage('en')">🇬🇧</button>
+            <button onclick="setLanguage('ru')">🇷🇺</button>
+            <button onclick="setLanguage('de')">🇩🇪</button>
+            <button onclick="setLanguage('fr')">🇫🇷</button>
+            <button onclick="setLanguage('es')">🇪🇸</button>
+        </div>
+    </header>
+    <main>
+        <p data-i18n="welcome">Vítejte na stránce Rozhovory s AI. Vyberte sekci pro čtení.</p>
+    </main>
+</body>
+</html>
